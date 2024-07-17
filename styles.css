@@ -16,7 +16,8 @@
 
   .title {
     color:white;
-    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 5px 5px 5px blue;
+    background: linear-gradient(hsl(186, 78%, 49%), hsl(223, 100%, 75%), hsl(240, 100%, 67%));
   }
 
   .Footer {
