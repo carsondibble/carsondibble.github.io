@@ -1,6 +1,6 @@
-h1 {
-    background-color: linear-gradient(#858585, #3f3f3e, #858585)
+.bigwords {
+    background: linear-gradient(#2c2c2c, #5a5a5a, #2c2c2c);
     color: white;
+    text-align: center;
 }
-
 
