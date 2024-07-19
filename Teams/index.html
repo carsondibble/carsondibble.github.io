@@ -11,7 +11,7 @@
 
 <body class="Body">
     <nav>
-        <a href="index.html"> Home page</a>&nbsp;
+        <a href="index.html"> Home Page</a>&nbsp;
         <a href="earlyLife.html"> Bob's Early Life</a>&nbsp;
         <a href="Bob's Later Life.html"> Bob's Later Life</a>&nbsp;
         <a href="paintings.html">Bob's Paintings</a>&nbsp;
@@ -36,7 +36,7 @@
         estimated 30,000 paintings during his lifetime.</p>
 
     <hr>
-
+<form>
     <section>
         <fieldset class="tvsegment">
             <a href="https://youtu.be/oh5p5f5_-7A" target="_blank"><img width="800px" src="bobross.jpg"
@@ -46,24 +46,25 @@
         <hr>
         <fieldset>
             <legend>What stands out most about Bob Ross?</legend>
-            <label><input id="an" type="radio" name="selection"> His Art</label>
-            <label> <input id="another" type="radio" name="selection"> His Personality</label>
+            <label><input type="radio" name="selection" required> His Art</label>
+            <label><input id="another" type="radio" name="selection" required> His Personality</label>
         </fieldset>
     </section>
     <fieldset>
         <section class="checkbox">
             <legend>What stands out most about his art?</legend>
-            <input type="checkbox"> His Happy Little Trees
-            <input id="Definitely" name="personality" type="checkbox"> <label for="Definitely">The Uniqueness of Each
+            <input type="checkbox" required> His Happy Little Trees
+            <input id="Definitely" name="personality" type="checkbox" required> <label for="Definitely" >The Uniqueness of Each
                 Piece
             </label>
-            <input id="Definitely" name="personality" type="checkbox"> <label for="Definitely">The Attention to Detail
+            <input id="Definitely" name="personality" type="checkbox" required> <label for="Definitely">The Attention to Detail
             </label>
         </section>
     </fieldset>
     <br>
-    <a href="Submits.html"><input type="submit" id="Definitely"></a>
+    <a href="Submits.html"><button>Submit</button></a>
     <br>
+</form>
     <hr>
     <h2>“There’s nothing wrong with having a tree as a friend.”</h2>
     <h2><em>-Bob Ross</em></h2>
