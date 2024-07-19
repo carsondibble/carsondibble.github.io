@@ -17,7 +17,12 @@ h2 {
     align-items: center;
 }
 
-team {
+.team {
     width: auto;
+    height: 700px;
+}
+
+.perm {
+    width: 700px;
     height: auto;
 }
