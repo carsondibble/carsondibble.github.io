@@ -18,8 +18,8 @@ h2 {
 }
 
 .team {
-    width: auto;
-    height: 700px;
+    width: 800px;
+    height: auto;
 }
 
 .perm {
@@ -27,3 +27,7 @@ h2 {
     height: auto;
 }
 
+body {
+    background-color: rgb(226, 205, 188);
+}
+fieldset {background-color: rgb(223, 195, 172) ;}
