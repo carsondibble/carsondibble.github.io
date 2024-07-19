@@ -16,3 +16,8 @@ h2 {
 .tvsegment {
     align-items: center;
 }
+
+team {
+    width: auto;
+    height: auto;
+}
